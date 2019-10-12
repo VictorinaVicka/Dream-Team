@@ -52,7 +52,7 @@ struct Hero {
                               allie: allie[index],
                               enemie: enemie[index],
                               information: informations[index])
-            heroes.append(heroe)
+            heroes.append(hero)
         }
         return heroes
     }
