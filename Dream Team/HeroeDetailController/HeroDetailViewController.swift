@@ -17,7 +17,7 @@ class HeroDetailViewController: UITableViewController {
     
     @IBOutlet var descriptionTextView: UITextView!
     
-    var hero: Heroe!
+    var hero: Hero!
     var textNeme: String!
     var nextImage: UIImage!
     
