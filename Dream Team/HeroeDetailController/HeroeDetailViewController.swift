@@ -13,31 +13,7 @@ class HeroeDetailViewController: UITableViewController {
     @IBOutlet var detailImage: UIImageView!
     @IBOutlet var nemeHeroes: UILabel!
     
-    @IBOutlet var realNameLabel: UILabel!
-    @IBOutlet var realNameTextField: UITextField!
-    
-    @IBOutlet var placeOfStayLabel: UILabel!
-    @IBOutlet var placeOfStayTextField: UITextField!
-    
-    @IBOutlet var eyesLabel: UILabel!
-    @IBOutlet var eyesTextField: UITextField!
-    
-    @IBOutlet var hairLabel: UILabel!
-    @IBOutlet var hairTextField: UITextField!
-    
-    @IBOutlet var appearanceInComicsLabel: UILabel!
-    @IBOutlet var appearanceInComicsTextField: UITextField!
-    
-    @IBOutlet var superpowerLabel: UILabel!
-    @IBOutlet var superpowerTextField: UITextField!
-    
-    @IBOutlet var alliesLabel: UILabel!
-    @IBOutlet var alliesTextField: UITextField!
-    
-    @IBOutlet var enemiesLabel: UILabel!
-    @IBOutlet var enamiesTextField: UITextField!
-    
-    @IBOutlet var descriptionLabel: UILabel!
+   
     @IBOutlet var descriptionTextView: UITextView!
     
     var heroe: Heroe!
