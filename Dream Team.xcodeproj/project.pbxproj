@@ -49,12 +49,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C5B2CBD2351D4580082352C /* HeroesView */ = {
+		6C5B2CBD2351D4580082352C /* HeroesTableView */ = {
 			isa = PBXGroup;
 			children = (
 				6C5B2CBB2351D43F0082352C /* HeroeViewCell.swift */,
 			);
-			path = HeroesView;
+			path = HeroesTableView;
 			sourceTree = "<group>";
 		};
 		6CFABAFF2351C11600FB9C5B = {
@@ -79,8 +79,8 @@
 				6CFABB272351C36A00FB9C5B /* App */,
 				6CFABB2C2351C3E500FB9C5B /* HeroesDataManage */,
 				6CFABB292351C3AC00FB9C5B /* HeroeDetailViewController */,
-				6CFABB2D2351C3F700FB9C5B /* HeroesTableViewController */,
-				6C5B2CBD2351D4580082352C /* HeroesView */,
+				6CFABB2D2351C3F700FB9C5B /* HeroesTableController */,
+				6C5B2CBD2351D4580082352C /* HeroesTableView */,
 				6CFABB2A2351C3BB00FB9C5B /* Model */,
 				6CFABB2B2351C3D800FB9C5B /* AddingTableViewController */,
 				6CFABB2E2351C41900FB9C5B /* Resoiurces */,
@@ -140,13 +140,13 @@
 			path = HeroesDataManage;
 			sourceTree = "<group>";
 		};
-		6CFABB2D2351C3F700FB9C5B /* HeroesTableViewController */ = {
+		6CFABB2D2351C3F700FB9C5B /* HeroesTableController */ = {
 			isa = PBXGroup;
 			children = (
 				6CFABB1F2351C1C700FB9C5B /* HeroesTableViewController.swift */,
 				6CB16F6C2351F30C00D75170 /* ExtensionDelegate + HeroesTableViewController.swift */,
 			);
-			path = HeroesTableViewController;
+			path = HeroesTableController;
 			sourceTree = "<group>";
 		};
 		6CFABB2E2351C41900FB9C5B /* Resoiurces */ = {
