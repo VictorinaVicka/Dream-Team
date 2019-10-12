@@ -62,9 +62,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="ewe-0N-fLf">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="bbT-Up-7Av">
-                            <color key="tintColor" red="0.061812604" green="0.23989371409999999" blue="0.9183551741" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="bbT-Up-7Av"/>
                     </navigationItem>
                     <connections>
                         <segue destination="GEm-9z-aKm" kind="show" identifier="DetailVC" id="UzA-1F-07w"/>
