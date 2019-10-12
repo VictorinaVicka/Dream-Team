@@ -23,7 +23,6 @@ class HeroeDetailViewController: UITableViewController {
         textNeme = heroe.name
         detailImage.image = nextImage
         nemeHeroes.text = textNeme
-     
     }
 
 }
