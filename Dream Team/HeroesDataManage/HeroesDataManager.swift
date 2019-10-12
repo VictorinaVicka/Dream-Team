@@ -105,7 +105,6 @@ class HeroesDataManager {
                          "Перворожденный, Донна Трой"]
     
     var heroesImage = [UIImage(named: "Batman"),
-                       UIImage(named: "Joker"),
                        UIImage(named: "Superman"),
                        UIImage(named: "Joker"),
                        UIImage(named: "Flash"),

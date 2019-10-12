@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C5B2CBC2351D43F0082352C /* HeroeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B2CBB2351D43F0082352C /* HeroeViewCell.swift */; };
+		6CB16F6D2351F30C00D75170 /* ExtensionDelegate + HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB16F6C2351F30C00D75170 /* ExtensionDelegate + HeroesTableViewController.swift */; };
 		6CFABB0C2351C11600FB9C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB0B2351C11600FB9C5B /* AppDelegate.swift */; };
 		6CFABB0E2351C11600FB9C5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB0D2351C11600FB9C5B /* SceneDelegate.swift */; };
 		6CFABB102351C11600FB9C5B /* HeroeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB0F2351C11600FB9C5B /* HeroeDetailViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		6C5B2CBB2351D43F0082352C /* HeroeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeViewCell.swift; sourceTree = "<group>"; };
+		6CB16F6C2351F30C00D75170 /* ExtensionDelegate + HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtensionDelegate + HeroesTableViewController.swift"; sourceTree = "<group>"; };
 		6CFABB082351C11600FB9C5B /* Dream Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFABB0B2351C11600FB9C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CFABB0D2351C11600FB9C5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				6CFABB1F2351C1C700FB9C5B /* HeroesTableViewController.swift */,
+				6CB16F6C2351F30C00D75170 /* ExtensionDelegate + HeroesTableViewController.swift */,
 			);
 			path = HeroesTableViewController;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB16F6D2351F30C00D75170 /* ExtensionDelegate + HeroesTableViewController.swift in Sources */,
 				6CFABB222351C21600FB9C5B /* Heroe.swift in Sources */,
 				6CFABB242351C27400FB9C5B /* AddingTableViewController.swift in Sources */,
 				6CFABB262351C30300FB9C5B /* HeroesDataManager.swift in Sources */,
