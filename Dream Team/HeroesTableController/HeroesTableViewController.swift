@@ -10,7 +10,7 @@ import UIKit
 
 class HeroesTableViewController: UITableViewController {
     
-    var heroes = Heroe.getInfoList()
+    var heroes = Hero.getInfoList()
 
 
     // MARK: - Table view data source
@@ -33,8 +33,8 @@ class HeroesTableViewController: UITableViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "DetailVC" {
-            let vc = segue.destination as! HeroeDetailViewController
-            vc.heroe = sender as? Heroe
+            let vc = segue.destination as! HeroDetailViewController
+            vc.heroe = sender as? Hero
         }
     }
     @IBAction func deleteButton(_ sender: UIBarButtonItem) {
