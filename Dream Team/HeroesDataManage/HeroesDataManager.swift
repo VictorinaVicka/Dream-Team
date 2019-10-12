@@ -14,7 +14,7 @@ class HeroesDataManager {
     
     var heroesName = ["Batman", "SuperMan", "Joker"]
     
-    var heroesImage = [UIImage]()
+    var heroesImage = [UIImage(named: "Batman"), UIImage(named: "Joker"), UIImage(named: "Superman"), UIImage(named: "Joker")]
     
     var heroesBio = [
         """

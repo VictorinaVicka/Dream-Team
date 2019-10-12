@@ -25,7 +25,7 @@ struct Heroe {
     
     static func getInfoList() -> [Heroe] {
         
-        var heroes: [Heroe] = []
+        var heroes = [Heroe]()
         
         let names = HeroesDataManager.shared.heroesName
         let bio = HeroesDataManager.shared.heroesBio
