@@ -353,7 +353,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.1301797395" green="0.13820909000000001" blue="0.64020989439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.12941176470588234" green="0.13725490196078433" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="lJW-8o-uKj" secondAttribute="bottom" constant="16" id="7Yf-vp-6wy"/>
                                                 <constraint firstItem="lJW-8o-uKj" firstAttribute="top" secondItem="apB-nw-4HE" secondAttribute="topMargin" constant="16" id="JrG-lj-nPo"/>
@@ -372,8 +372,26 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="7br-y1-hdu"/>
                     <connections>
+                        <outlet property="alliesLabel" destination="7zD-ga-NOI" id="KUo-Ns-W49"/>
+                        <outlet property="alliesTextField" destination="YDy-XR-Ol5" id="GEB-oo-l31"/>
+                        <outlet property="appearanceInComicsLabel" destination="ZOH-NG-8F5" id="2pO-x6-bct"/>
+                        <outlet property="appearanceInComicsTextField" destination="4n2-d2-yX6" id="VRZ-Lp-0bl"/>
+                        <outlet property="descriptionLabel" destination="ni8-gl-wGA" id="P0P-Iu-kwk"/>
+                        <outlet property="descriptionTextView" destination="peP-Ka-OC1" id="bae-y7-oKy"/>
                         <outlet property="detailImage" destination="N1Q-0q-ywr" id="JH0-Pt-S7Z"/>
+                        <outlet property="enamiesTextField" destination="aaC-OR-ZJ2" id="52w-Ye-xEh"/>
+                        <outlet property="enemiesLabel" destination="KTG-8E-Nab" id="qsp-6n-5EL"/>
+                        <outlet property="eyesLabel" destination="xnk-gq-Rxs" id="fCK-sd-fMe"/>
+                        <outlet property="eyesTextField" destination="CSN-FG-B8a" id="eLH-Fr-O9s"/>
+                        <outlet property="hairLabel" destination="e6z-vl-SgH" id="Pyp-BL-Odi"/>
+                        <outlet property="hairTextField" destination="t8B-6e-T7X" id="btc-Ye-DDI"/>
                         <outlet property="nemeHeroes" destination="DPh-WW-v22" id="rD6-6x-icf"/>
+                        <outlet property="placeOfStayLabel" destination="9CI-PA-Pmf" id="aen-5V-z2R"/>
+                        <outlet property="placeOfStayTextField" destination="Zot-Kn-275" id="YfH-Gt-IN5"/>
+                        <outlet property="realNameLabel" destination="vBu-16-3fG" id="2K4-Wr-pfN"/>
+                        <outlet property="realNameTextField" destination="xZe-jZ-Kff" id="Gg3-f9-RRq"/>
+                        <outlet property="superpowerLabel" destination="tLr-jv-4g1" id="MSN-bf-okd"/>
+                        <outlet property="superpowerTextField" destination="RNC-iS-tfP" id="P53-2Q-cXo"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xRT-KP-tFs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
