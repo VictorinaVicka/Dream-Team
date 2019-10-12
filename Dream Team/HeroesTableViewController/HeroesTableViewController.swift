@@ -21,10 +21,10 @@ class HeroesTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HeroeViewCell
         let heroe = heroes[indexPath.row]
-        cell.textLabel?.text = heroe.name
-        cell.imageView?.image = heroe.image
+        cell.heroeLabel.text = heroe.name
+        cell.heroeImage.image = heroe.image
         return cell
     }
 
