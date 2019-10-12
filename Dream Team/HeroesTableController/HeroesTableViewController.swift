@@ -28,20 +28,6 @@ class HeroesTableViewController: UITableViewController {
         cell.separatorInset = .zero
         return cell
     }
-    // Удаление строки свайпом
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        return true
-    }
-    
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            heroes.remove(at: indexPath.row)
-            
-            tableView.beginUpdates()
-            tableView.deleteRows(at: [indexPath], with: .automatic)
-            tableView.endUpdates()
-        }
-    }
     
     // MARK: - Navigation
     
