@@ -10,7 +10,9 @@ import UIKit
 
 class HeroeViewCell: UITableViewCell {
 
+  
     @IBOutlet var heroeImage: UIImageView!
     @IBOutlet var heroeLabel: UILabel!
+    
     
 }

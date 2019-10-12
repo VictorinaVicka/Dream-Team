@@ -14,7 +14,7 @@ extension HeroesTableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let hero = heroes[indexPath.row]
-        performSegue(withIdentifier: "NextDetailVC", sender: hero)
+        performSegue(withIdentifier: "DetailVC", sender: hero)
     }
 
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {

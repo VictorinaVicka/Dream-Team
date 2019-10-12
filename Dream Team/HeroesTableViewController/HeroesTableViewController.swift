@@ -25,7 +25,16 @@ class HeroesTableViewController: UITableViewController {
         let heroe = heroes[indexPath.row]
         cell.heroeLabel.text = heroe.name
         cell.heroeImage.image = heroe.image
+        cell.separatorInset = .zero
         return cell
     }
-
+    
+    // MARK: - Navigation
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "DetailVC" {
+            let vc = segue.destination as! HeroeDetailViewController
+            vc.heroe = sender as? Heroe
+        }
+    }
 }

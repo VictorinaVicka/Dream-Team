@@ -10,9 +10,19 @@ import UIKit
 
 class HeroeDetailViewController: UITableViewController {
 
+    @IBOutlet var detailImage: UIImageView!
+    @IBOutlet var nemeHeroes: UILabel!
+    
+    var heroe: Heroe!
+    var textNeme: String!
+    var nextImage: UIImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        nextImage = heroe.image
+        textNeme = heroe.name
+        detailImage.image = nextImage
+        nemeHeroes.text = textNeme
      
     }
 
