@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C5B2CBC2351D43F0082352C /* HeroeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B2CBB2351D43F0082352C /* HeroeViewCell.swift */; };
 		6CFABB0C2351C11600FB9C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB0B2351C11600FB9C5B /* AppDelegate.swift */; };
 		6CFABB0E2351C11600FB9C5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB0D2351C11600FB9C5B /* SceneDelegate.swift */; };
 		6CFABB102351C11600FB9C5B /* HeroeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB0F2351C11600FB9C5B /* HeroeDetailViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C5B2CBB2351D43F0082352C /* HeroeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeViewCell.swift; sourceTree = "<group>"; };
 		6CFABB082351C11600FB9C5B /* Dream Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFABB0B2351C11600FB9C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CFABB0D2351C11600FB9C5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5B2CBD2351D4580082352C /* HeroesView */ = {
+			isa = PBXGroup;
+			children = (
+				6C5B2CBB2351D43F0082352C /* HeroeViewCell.swift */,
+			);
+			path = HeroesView;
+			sourceTree = "<group>";
+		};
 		6CFABAFF2351C11600FB9C5B = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 				6CFABB2C2351C3E500FB9C5B /* HeroesDataManage */,
 				6CFABB292351C3AC00FB9C5B /* HeroeDetailViewController */,
 				6CFABB2D2351C3F700FB9C5B /* HeroesTableViewController */,
+				6C5B2CBD2351D4580082352C /* HeroesView */,
 				6CFABB2A2351C3BB00FB9C5B /* Model */,
 				6CFABB2B2351C3D800FB9C5B /* AddingTableViewController */,
 				6CFABB2E2351C41900FB9C5B /* Resoiurces */,
@@ -218,6 +229,7 @@
 				6CFABB242351C27400FB9C5B /* AddingTableViewController.swift in Sources */,
 				6CFABB262351C30300FB9C5B /* HeroesDataManager.swift in Sources */,
 				6CFABB102351C11600FB9C5B /* HeroeDetailViewController.swift in Sources */,
+				6C5B2CBC2351D43F0082352C /* HeroeViewCell.swift in Sources */,
 				6CFABB0C2351C11600FB9C5B /* AppDelegate.swift in Sources */,
 				6CFABB0E2351C11600FB9C5B /* SceneDelegate.swift in Sources */,
 				6CFABB202351C1C700FB9C5B /* HeroesTableViewController.swift in Sources */,

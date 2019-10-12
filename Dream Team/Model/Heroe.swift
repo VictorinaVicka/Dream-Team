@@ -24,7 +24,7 @@ struct Heroe {
     
     static func getInfoList() -> [Heroe] {
         
-        var heroes: [Heroe] = []
+        var heroes = [Heroe]()
         
         let names = HeroesDataManager.shared.heroesName
         let image = HeroesDataManager.shared.heroesImage

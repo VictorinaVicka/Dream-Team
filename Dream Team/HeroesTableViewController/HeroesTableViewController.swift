@@ -10,7 +10,7 @@ import UIKit
 
 class HeroesTableViewController: UITableViewController {
     
-    var heroes: [Heroe] = [Heroe(name: "Джокер", image: nil, realName: nil, location: nil, colorEyes: nil, colorHair: nil, firstAppearance: nil, superPower: nil, allies: nil, enemies: nil, age: nil, information: nil)]
+    var heroes = Heroe.getInfoList()
 
 
     // MARK: - Table view data source
@@ -21,9 +21,10 @@ class HeroesTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HeroeViewCell
         let heroe = heroes[indexPath.row]
-        cell.textLabel?.text = heroe.name
+        cell.heroeLabel.text = heroe.name
+        cell.heroeImage.image = heroe.image
         return cell
     }
 

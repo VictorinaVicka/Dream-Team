@@ -41,6 +41,7 @@ class HeroesDataManager {
                          "Бэтмен, Бэт-семья, комиссар Джеймс Гордон"]
     
     var heroesImage = [UIImage]()
+    var heroesImage = [UIImage(named: "Batman"), UIImage(named: "Joker"), UIImage(named: "Superman"), UIImage(named: "Joker")]
     
     var heroesBio = [
         """
