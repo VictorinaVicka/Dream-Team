@@ -17,16 +17,16 @@ class HeroDetailViewController: UITableViewController {
     
     @IBOutlet var descriptionTextView: UITextView!
     
+    
+    
     var hero: Hero!
-    var textNeme: String!
     var nextImage: UIImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         nextImage = hero.image
-        textNeme = hero.name
         detailImage.image = nextImage
-        heroName.text = textNeme
+        self.title = hero.name
+        descriptionElementsFilling()
     }
-
 }
