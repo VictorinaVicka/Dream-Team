@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Heroe {
+struct Hero {
     
     let name: String?
     let image: UIImage?
@@ -22,9 +22,9 @@ struct Heroe {
     let enemie: String?
     let information: String?
     
-    static func getInfoList() -> [Heroe] {
+    static func getInfoList() -> [Hero] {
         
-        var heroes = [Heroe]()
+        var heroes = [Hero]()
         
         let names = HeroesDataManager.shared.heroesName
         let image = HeroesDataManager.shared.heroesImage
@@ -41,7 +41,7 @@ struct Heroe {
         
         
         for index in 0..<names.count {
-            let heroe = Heroe(name: names[index],
+            let hero = Hero(name: names[index],
                               image: image[index],
                               realName: realNames[index],
                               location: locations[index],
