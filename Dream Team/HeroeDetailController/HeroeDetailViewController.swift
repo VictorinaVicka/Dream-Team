@@ -13,7 +13,10 @@ class HeroeDetailViewController: UITableViewController {
     @IBOutlet var detailImage: UIImageView!
     @IBOutlet var nemeHeroes: UILabel!
     
-   
+    @IBOutlet var descriptionLabels: [UILabel]!
+    @IBOutlet var descriptionTextField: [UITextField]!
+    
+    
     @IBOutlet var descriptionTextView: UITextView!
     
     var heroe: Heroe!
