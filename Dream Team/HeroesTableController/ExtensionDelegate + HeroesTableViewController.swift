@@ -28,6 +28,12 @@ extension HeroesTableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let moveObjTemp = heroes[sourceIndexPath.item]
+        heroes.remove(at: sourceIndexPath.item)
+        heroes.insert(moveObjTemp, at: destinationIndexPath.item)
+    }
+    
     override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
         UIView()
     }
