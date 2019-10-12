@@ -370,7 +370,9 @@
                             <outlet property="delegate" destination="GEm-9z-aKm" id="3EQ-6b-6dF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="7br-y1-hdu"/>
+                    <navigationItem key="navigationItem" id="7br-y1-hdu">
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="g1v-f9-5Qp"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="descriptionTextView" destination="peP-Ka-OC1" id="bae-y7-oKy"/>
                         <outlet property="detailImage" destination="N1Q-0q-ywr" id="JH0-Pt-S7Z"/>
