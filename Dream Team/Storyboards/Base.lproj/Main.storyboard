@@ -160,7 +160,7 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N1Q-0q-ywr">
                                                     <rect key="frame" x="16" y="10" width="288" height="288"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="288" id="pnF-UU-91C"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="pnF-UU-91C"/>
                                                         <constraint firstAttribute="height" constant="288" id="qKB-Un-kQq"/>
                                                     </constraints>
                                                 </imageView>
