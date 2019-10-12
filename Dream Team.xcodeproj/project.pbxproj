@@ -78,11 +78,11 @@
 			children = (
 				6CFABB272351C36A00FB9C5B /* App */,
 				6CFABB2C2351C3E500FB9C5B /* HeroesDataManage */,
-				6CFABB292351C3AC00FB9C5B /* HeroeDetailViewController */,
-				6CFABB2D2351C3F700FB9C5B /* HeroesTableViewController */,
+				6CFABB292351C3AC00FB9C5B /* HeroeDetailController */,
+				6CFABB2D2351C3F700FB9C5B /* HeroesTableController */,
 				6C5B2CBD2351D4580082352C /* HeroesView */,
 				6CFABB2A2351C3BB00FB9C5B /* Model */,
-				6CFABB2B2351C3D800FB9C5B /* AddingTableViewController */,
+				6CFABB2B2351C3D800FB9C5B /* AddingTableController */,
 				6CFABB2E2351C41900FB9C5B /* Resoiurces */,
 				6CFABB282351C38C00FB9C5B /* Storyboards */,
 				6CFABB192351C11600FB9C5B /* Info.plist */,
@@ -108,12 +108,12 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		6CFABB292351C3AC00FB9C5B /* HeroeDetailViewController */ = {
+		6CFABB292351C3AC00FB9C5B /* HeroeDetailController */ = {
 			isa = PBXGroup;
 			children = (
 				6CFABB0F2351C11600FB9C5B /* HeroeDetailViewController.swift */,
 			);
-			path = HeroeDetailViewController;
+			path = HeroeDetailController;
 			sourceTree = "<group>";
 		};
 		6CFABB2A2351C3BB00FB9C5B /* Model */ = {
@@ -124,12 +124,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		6CFABB2B2351C3D800FB9C5B /* AddingTableViewController */ = {
+		6CFABB2B2351C3D800FB9C5B /* AddingTableController */ = {
 			isa = PBXGroup;
 			children = (
 				6CFABB232351C27400FB9C5B /* AddingTableViewController.swift */,
 			);
-			path = AddingTableViewController;
+			path = AddingTableController;
 			sourceTree = "<group>";
 		};
 		6CFABB2C2351C3E500FB9C5B /* HeroesDataManage */ = {
@@ -140,13 +140,13 @@
 			path = HeroesDataManage;
 			sourceTree = "<group>";
 		};
-		6CFABB2D2351C3F700FB9C5B /* HeroesTableViewController */ = {
+		6CFABB2D2351C3F700FB9C5B /* HeroesTableController */ = {
 			isa = PBXGroup;
 			children = (
 				6CFABB1F2351C1C700FB9C5B /* HeroesTableViewController.swift */,
 				6CB16F6C2351F30C00D75170 /* ExtensionDelegate + HeroesTableViewController.swift */,
 			);
-			path = HeroesTableViewController;
+			path = HeroesTableController;
 			sourceTree = "<group>";
 		};
 		6CFABB2E2351C41900FB9C5B /* Resoiurces */ = {
