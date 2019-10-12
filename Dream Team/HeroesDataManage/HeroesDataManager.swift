@@ -40,7 +40,6 @@ class HeroesDataManager {
                          "Лекс Лютор, Брейниак, Зод, Виндктвкс, Хелспот, Думсдей, Паразит, Нимрод, Х’Эл, Фантомный Король Кса-Ду, Эрик Дреккен, Призрак",
                          "Бэтмен, Бэт-семья, комиссар Джеймс Гордон"]
     
-    var heroesImage = [UIImage]()
     var heroesImage = [UIImage(named: "Batman"), UIImage(named: "Joker"), UIImage(named: "Superman"), UIImage(named: "Joker")]
     
     var heroesBio = [
