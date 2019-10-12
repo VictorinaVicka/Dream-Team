@@ -14,13 +14,12 @@ struct Heroe {
     let image: UIImage?
     let realName: String?
     let location: String?
-    let colorEyes: String?
+    let colorEye: String?
     let colorHair: String?
     let firstAppearance: String?
     let superPower: String?
-    let allies: String?
-    let enemies: String?
-    let age: String?
+    let allie: String?
+    let enemie: String?
     let information: String?
     
     static func getInfoList() -> [Heroe] {
@@ -28,22 +27,31 @@ struct Heroe {
         var heroes = [Heroe]()
         
         let names = HeroesDataManager.shared.heroesName
-        let bio = HeroesDataManager.shared.heroesBio
         let image = HeroesDataManager.shared.heroesImage
+        let realNames = HeroesDataManager.shared.heroesRealName
+        let locations = HeroesDataManager.shared.heroesLocation
+        let colorEyes = HeroesDataManager.shared.heroesColorEye
+        let colorHairs = HeroesDataManager.shared.heroesColorHair
+        let firstAppearances = HeroesDataManager.shared.heroesFirstAppearance
+        let superPowers = HeroesDataManager.shared.heroesSuperPower
+        let allie = HeroesDataManager.shared.heroesAllie
+        let enemie = HeroesDataManager.shared.heroesEnemie
+        let informations = HeroesDataManager.shared.heroesBio
+        
+        
         
         for index in 0..<names.count {
             let heroe = Heroe(name: names[index],
                               image: image[index],
-                              realName: nil,
-                              location: nil,
-                              colorEyes: nil,
-                              colorHair: nil,
-                              firstAppearance: nil,
-                              superPower: nil,
-                              allies: nil,
-                              enemies: nil,
-                              age: nil,
-                              information: bio[index])
+                              realName: realNames[index],
+                              location: locations[index],
+                              colorEye: colorEyes[index],
+                              colorHair: colorHairs[index],
+                              firstAppearance: firstAppearances[index],
+                              superPower: superPowers[index],
+                              allie: allie[index],
+                              enemie: enemie[index],
+                              information: informations[index])
             heroes.append(heroe)
         }
         return heroes
