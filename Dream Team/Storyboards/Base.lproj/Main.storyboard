@@ -374,7 +374,6 @@
                     <connections>
                         <outlet property="descriptionTextView" destination="peP-Ka-OC1" id="bae-y7-oKy"/>
                         <outlet property="detailImage" destination="N1Q-0q-ywr" id="JH0-Pt-S7Z"/>
-                        <outlet property="enemiesLabel" destination="KTG-8E-Nab" id="qsp-6n-5EL"/>
                         <outlet property="nemeHeroes" destination="DPh-WW-v22" id="rD6-6x-icf"/>
                         <outletCollection property="descriptionLabels" destination="vBu-16-3fG" collectionClass="NSMutableArray" id="DbR-3o-maF"/>
                         <outletCollection property="descriptionLabels" destination="9CI-PA-Pmf" collectionClass="NSMutableArray" id="yEk-fX-L4m"/>
