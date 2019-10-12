@@ -37,4 +37,8 @@ class HeroesTableViewController: UITableViewController {
             vc.heroe = sender as? Heroe
         }
     }
+    @IBAction func deleteButton(_ sender: UIBarButtonItem) {
+        self.tableView.isEditing = !self.tableView.isEditing
+        sender.title = (self.tableView.isEditing) ? "Done" : "Delete"
+    }
 }
