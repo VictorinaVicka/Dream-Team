@@ -21,7 +21,7 @@ class HeroesTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HeroeViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! HeroViewCell
         let heroe = heroes[indexPath.row]
         cell.heroeLabel.text = heroe.name
         cell.heroeImage.image = heroe.image
@@ -37,8 +37,17 @@ class HeroesTableViewController: UITableViewController {
             vc.hero = sender as? Hero
         }
     }
+        
     @IBAction func deleteButton(_ sender: UIBarButtonItem) {
-        self.tableView.isEditing = !self.tableView.isEditing
-        sender.title = (self.tableView.isEditing) ? "Done" : "Delete"
+        if !tableView.isEditing {
+            setEditing(true, animated: true)
+            sender.title = "Done"
+        } else {
+            setEditing(false, animated: true)
+            sender.title = "Edit"
+        }
+    }
+    @IBAction func next(_ sender: Any) {
+        performSegue(withIdentifier: "Next", sender: nil)
     }
 }

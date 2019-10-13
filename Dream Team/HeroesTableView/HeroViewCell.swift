@@ -1,5 +1,5 @@
 //
-//  HeroeViewCell.swift
+//  HeroViewCell.swift
 //  Dream Team
 //
 //  Created by Денис Иванов on 12.10.2019.
@@ -8,11 +8,9 @@
 
 import UIKit
 
-class HeroeViewCell: UITableViewCell {
-
-  
+class HeroViewCell: UITableViewCell {
+    
     @IBOutlet var heroeImage: UIImageView!
     @IBOutlet var heroeLabel: UILabel!
-    
-    
+
 }

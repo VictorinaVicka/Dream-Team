@@ -12,6 +12,7 @@ class HeroDetailViewController: UITableViewController {
 
     @IBOutlet var detailImage: UIImageView!
     @IBOutlet var descriptionLabels: [UILabel]!
+    @IBOutlet var cell: UITableViewCell!
     
     var hero: Hero!
     
@@ -20,5 +21,11 @@ class HeroDetailViewController: UITableViewController {
         self.title = hero.name
         detailImage.image = hero.image
         descriptionElementsFilling()
+        
+        
+    }
+    
+    deinit {
+        print("vc")
     }
 }

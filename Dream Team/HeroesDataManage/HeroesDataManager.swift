@@ -62,7 +62,7 @@ class HeroesDataManager {
                            "Русые",
                            "Черные"]
     
-    let heroesFirstAppearance = ["Detective Comics #27 (30 марта 1939 года)",
+    let heroesFirstAppearance = ["30 марта 1939 года",
                                  "Action Comics (Том 1) #1 (июнь 1938 года)",
                                  "Batman #1 (май 1940 года)",
                                  "Showcase #4 (октябрь 1956 года)",
