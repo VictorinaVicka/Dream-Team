@@ -50,7 +50,7 @@
                                         <constraint firstItem="mWe-po-Kk9" firstAttribute="trailing" secondItem="KoN-Rd-0xk" secondAttribute="trailingMargin" id="wWu-9F-UsQ"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <outlet property="heroeImage" destination="aUz-lw-iZu" id="w43-1B-E8p"/>
                                     <outlet property="heroeLabel" destination="mWe-po-Kk9" id="fax-M0-xFc"/>
