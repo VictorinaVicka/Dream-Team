@@ -19,6 +19,7 @@
 		6CFABB222351C21600FB9C5B /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB212351C21600FB9C5B /* Hero.swift */; };
 		6CFABB242351C27400FB9C5B /* AddingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB232351C27400FB9C5B /* AddingTableViewController.swift */; };
 		6CFABB262351C30300FB9C5B /* HeroesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFABB252351C30300FB9C5B /* HeroesDataManager.swift */; };
+		BEA33238235318F60085B0FA /* CreatingNewHeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA33237235318F60085B0FA /* CreatingNewHeroTableViewController.swift */; };
 		D6B09A1C2352544300068674 /* Heroes DetailVCEctention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B09A1B2352544300068674 /* Heroes DetailVCEctention.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		6CFABB212351C21600FB9C5B /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		6CFABB232351C27400FB9C5B /* AddingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingTableViewController.swift; sourceTree = "<group>"; };
 		6CFABB252351C30300FB9C5B /* HeroesDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesDataManager.swift; sourceTree = "<group>"; };
+		BEA33237235318F60085B0FA /* CreatingNewHeroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingNewHeroTableViewController.swift; sourceTree = "<group>"; };
 		D6B09A1B2352544300068674 /* Heroes DetailVCEctention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Heroes DetailVCEctention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				6CFABB272351C36A00FB9C5B /* App */,
 				6CFABB2C2351C3E500FB9C5B /* HeroesDataManage */,
 				6CFABB292351C3AC00FB9C5B /* HeroeDetailController */,
+				BEA332362353188D0085B0FA /* CreatingANewHero */,
 				6CFABB2D2351C3F700FB9C5B /* HeroesTableController */,
 				6C5B2CBD2351D4580082352C /* HeroesTableView */,
 				6CFABB2A2351C3BB00FB9C5B /* Model */,
@@ -158,6 +161,14 @@
 				6CFABB142351C11600FB9C5B /* Assets.xcassets */,
 			);
 			path = Resoiurces;
+			sourceTree = "<group>";
+		};
+		BEA332362353188D0085B0FA /* CreatingANewHero */ = {
+			isa = PBXGroup;
+			children = (
+				BEA33237235318F60085B0FA /* CreatingNewHeroTableViewController.swift */,
+			);
+			path = CreatingANewHero;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +251,7 @@
 				6C5B2CBC2351D43F0082352C /* HeroeViewCell.swift in Sources */,
 				6CFABB0C2351C11600FB9C5B /* AppDelegate.swift in Sources */,
 				6CFABB0E2351C11600FB9C5B /* SceneDelegate.swift in Sources */,
+				BEA33238235318F60085B0FA /* CreatingNewHeroTableViewController.swift in Sources */,
 				6CFABB202351C1C700FB9C5B /* HeroesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
