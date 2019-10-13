@@ -10,14 +10,19 @@ import UIKit
 
 class CreatingNewHeroTableViewController: UITableViewController {
 
+    @IBOutlet var textA: UITextField!
+    @IBOutlet var textB: UITextField!
+    @IBOutlet var textC: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        textA.delegate = self
+        textB.delegate = self
+        textC.delegate = self
     }
 
+}
+
+extension CreatingNewHeroTableViewController: UITextFieldDelegate {
+    
 }
