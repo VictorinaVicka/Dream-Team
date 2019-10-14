@@ -8,13 +8,13 @@
 
 import UIKit
 
-class NewHeroTableViewController: UITableViewController, UITextFieldDelegate {
+class NewHeroTableViewController: UITableViewController {
 
-    @IBOutlet var changeImage: UIImageView!
+    @IBOutlet var imageOfHero: UIImageView!
     @IBOutlet var changeTextFields: [UITextField]!
     @IBOutlet var modifiedDescriptionTextView: UITextView!
 
-//    var delegate: HeroDelegate?
+    var delegate: NewHeroDelegate?
     var heroModel: Hero?
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -45,7 +45,7 @@ class NewHeroTableViewController: UITableViewController, UITextFieldDelegate {
     
     func createNewHero() {
         heroModel = Hero(name: changeTextFields[0].text,
-                    image: changeImage.image,
+                    image: imageOfHero.image,
                     realName: changeTextFields[1].text,
                     location: changeTextFields[2].text,
                     colorEye: changeTextFields[3].text,
@@ -55,5 +55,14 @@ class NewHeroTableViewController: UITableViewController, UITextFieldDelegate {
                     allie: nil,
                     enemie: nil,
                     information: modifiedDescriptionTextView.text)
+    }
+    
+    @IBAction func goBackToOneButtonTapped(_ sender: UIButton) {
+        createNewHero()
+        performSegue(withIdentifier: "Unwind", sender: self)
+    }
+    
+    deinit {
+        print("vc")
     }
 }
