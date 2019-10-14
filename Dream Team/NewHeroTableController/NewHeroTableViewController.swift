@@ -12,10 +12,21 @@ class NewHeroTableViewController: UITableViewController {
 
     @IBOutlet var imageOfHero: UIImageView!
     @IBOutlet var changeTextFields: [UITextField]!
+    @IBOutlet var cell: [UITableViewCell]!
     @IBOutlet var modifiedDescriptionTextView: UITextView!
 
     var delegate: NewHeroDelegate?
     var heroModel: Hero?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        modifiedDescriptionTextView.delegate = self
+        modifiedDescriptionTextView.layer.cornerRadius = 5
+        modifiedDescriptionTextView.layer.borderColor = #colorLiteral(red: 0.470484674, green: 0.7155917287, blue: 0.987185061, alpha: 1)
+        modifiedDescriptionTextView.layer.borderWidth = 0.5
+        modifiedDescriptionTextView.textColor = #colorLiteral(red: 0.2605174184, green: 0.2605243921, blue: 0.260520637, alpha: 1)
+        modifiedDescriptionTextView.text = "Введите описание..."
+    }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
@@ -43,6 +54,13 @@ class NewHeroTableViewController: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if ((cell?.capacity) != nil) {
+            
+        }
+        return 0
+    }
+    
     func createNewHero() {
         heroModel = Hero(name: changeTextFields[0].text,
                     image: imageOfHero.image,
@@ -60,9 +78,5 @@ class NewHeroTableViewController: UITableViewController {
     @IBAction func goBackToOneButtonTapped(_ sender: UIButton) {
         createNewHero()
         performSegue(withIdentifier: "Unwind", sender: self)
-    }
-    
-    deinit {
-        print("vc")
     }
 }

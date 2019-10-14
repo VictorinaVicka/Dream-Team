@@ -25,7 +25,7 @@ class HeroDetailViewController: UITableViewController {
         
     }
     
-    deinit {
-        print("vc")
+    override func viewDidLayoutSubviews() {
+        detailImage.layer.cornerRadius = detailImage.frame.height / 2
     }
 }

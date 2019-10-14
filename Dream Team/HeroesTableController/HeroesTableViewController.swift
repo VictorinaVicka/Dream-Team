@@ -64,6 +64,4 @@ extension HeroesTableViewController: NewHeroDelegate {
         heroes.append(hero)
         tableView.reloadData()
     }
-    
-
 }
