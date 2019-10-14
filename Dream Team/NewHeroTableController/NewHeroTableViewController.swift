@@ -54,12 +54,14 @@ class NewHeroTableViewController: UITableViewController {
         }
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if ((cell?.capacity) != nil) {
-            
-        }
-        return 0
-    }
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        
+//        if cell[indexPath.row].tag == 0 {
+//            
+//        }
+//        
+//        return UITableViewCell()
+//    }
     
     func createNewHero() {
         heroModel = Hero(name: changeTextFields[0].text,
