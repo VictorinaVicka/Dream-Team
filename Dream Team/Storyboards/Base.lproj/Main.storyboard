@@ -111,6 +111,7 @@
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="0Aw-bl-Pr6" firstAttribute="trailing" secondItem="nNu-hG-5Ga" secondAttribute="trailingMargin" id="MLd-EV-Wxn"/>
                                                 <constraint firstItem="0Aw-bl-Pr6" firstAttribute="bottom" secondItem="nNu-hG-5Ga" secondAttribute="bottomMargin" id="YIe-Vy-CW4"/>
@@ -147,7 +148,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="Ke4-qX-hE6" secondAttribute="bottom" constant="9.5" id="sX4-p5-Nf3"/>
                                                 <constraint firstItem="Ke4-qX-hE6" firstAttribute="leading" secondItem="X8b-ZK-R45" secondAttribute="leading" constant="16" id="wnV-QZ-TfE"/>
@@ -183,7 +184,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="hUO-fM-h9D" firstAttribute="top" secondItem="TSz-SB-pOQ" secondAttribute="top" constant="9.5" id="3JE-Vn-i5b"/>
                                                 <constraint firstItem="hUO-fM-h9D" firstAttribute="leading" secondItem="TSz-SB-pOQ" secondAttribute="leading" constant="16" id="6eQ-Vb-CDO"/>
@@ -424,7 +425,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VTD-dh-piQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="krw-2r-PDT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3386.25" y="-25.35211267605634"/>
+            <point key="canvasLocation" x="3429" y="62"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="98d-Nk-tnh">
@@ -684,7 +685,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GMZ-CY-jY4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2355" y="433"/>
+            <point key="canvasLocation" x="2374" y="506"/>
         </scene>
     </scenes>
     <resources>
