@@ -12,7 +12,7 @@ class NewHeroTableViewController: UITableViewController {
 
     @IBOutlet var imageOfHero: UIImageView!
     @IBOutlet var changeTextFields: [UITextField]!
-    @IBOutlet var cell: [UITableViewCell]!
+    @IBOutlet var cells: [UITableViewCell]!
     @IBOutlet var modifiedDescriptionTextView: UITextView!
 
     var delegate: NewHeroDelegate?
@@ -56,11 +56,10 @@ class NewHeroTableViewController: UITableViewController {
     
 //    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 //        
-//        if cell[indexPath.row].tag == 0 {
-//            
+//        cells.forEach { cell in
+//            cell.tag == 0
 //        }
 //        
-//        return UITableViewCell()
 //    }
     
     func createNewHero() {

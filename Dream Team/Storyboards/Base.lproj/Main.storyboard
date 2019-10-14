@@ -546,18 +546,18 @@
                         <outletCollection property="changeTextFields" destination="cp8-et-Tjb" collectionClass="NSMutableArray" id="Tfg-55-ols"/>
                         <outletCollection property="changeTextFields" destination="QOr-VH-Wp2" collectionClass="NSMutableArray" id="vN6-DC-cKU"/>
                         <outletCollection property="changeTextFields" destination="Pkw-HO-KT3" collectionClass="NSMutableArray" id="C00-h1-j7w"/>
-                        <outletCollection property="cell" destination="6Mv-JU-NRw" collectionClass="NSMutableArray" id="gms-hJ-0dY"/>
-                        <outletCollection property="cell" destination="9Gb-0C-PbZ" collectionClass="NSMutableArray" id="tjG-1t-23o"/>
-                        <outletCollection property="cell" destination="Yuk-3R-NtE" collectionClass="NSMutableArray" id="qO1-fp-gdU"/>
-                        <outletCollection property="cell" destination="0Ko-x3-D5j" collectionClass="NSMutableArray" id="Jib-6j-YFL"/>
-                        <outletCollection property="cell" destination="4Nb-eE-gZd" collectionClass="NSMutableArray" id="c98-u3-bQ4"/>
-                        <outletCollection property="cell" destination="PyF-pH-b3h" collectionClass="NSMutableArray" id="p5N-Nr-paV"/>
-                        <outletCollection property="cell" destination="W3V-g9-beV" collectionClass="NSMutableArray" id="oRB-1x-2pR"/>
-                        <outletCollection property="cell" destination="bgu-xv-g9H" collectionClass="NSMutableArray" id="CaR-OL-3Tf"/>
-                        <outletCollection property="cell" destination="7sW-kH-DLp" collectionClass="NSMutableArray" id="aeO-zv-f48"/>
-                        <outletCollection property="cell" destination="ckT-Yf-2TR" collectionClass="NSMutableArray" id="u1h-WW-dnY"/>
-                        <outletCollection property="cell" destination="fpc-Kv-smt" collectionClass="NSMutableArray" id="vsE-8R-RZB"/>
-                        <outletCollection property="cell" destination="gcM-My-EM2" collectionClass="NSMutableArray" id="lhv-MJ-5yy"/>
+                        <outletCollection property="cells" destination="6Mv-JU-NRw" collectionClass="NSMutableArray" id="gms-hJ-0dY"/>
+                        <outletCollection property="cells" destination="9Gb-0C-PbZ" collectionClass="NSMutableArray" id="tjG-1t-23o"/>
+                        <outletCollection property="cells" destination="Yuk-3R-NtE" collectionClass="NSMutableArray" id="qO1-fp-gdU"/>
+                        <outletCollection property="cells" destination="0Ko-x3-D5j" collectionClass="NSMutableArray" id="Jib-6j-YFL"/>
+                        <outletCollection property="cells" destination="4Nb-eE-gZd" collectionClass="NSMutableArray" id="c98-u3-bQ4"/>
+                        <outletCollection property="cells" destination="PyF-pH-b3h" collectionClass="NSMutableArray" id="p5N-Nr-paV"/>
+                        <outletCollection property="cells" destination="W3V-g9-beV" collectionClass="NSMutableArray" id="oRB-1x-2pR"/>
+                        <outletCollection property="cells" destination="bgu-xv-g9H" collectionClass="NSMutableArray" id="CaR-OL-3Tf"/>
+                        <outletCollection property="cells" destination="7sW-kH-DLp" collectionClass="NSMutableArray" id="aeO-zv-f48"/>
+                        <outletCollection property="cells" destination="ckT-Yf-2TR" collectionClass="NSMutableArray" id="u1h-WW-dnY"/>
+                        <outletCollection property="cells" destination="fpc-Kv-smt" collectionClass="NSMutableArray" id="vsE-8R-RZB"/>
+                        <outletCollection property="cells" destination="gcM-My-EM2" collectionClass="NSMutableArray" id="lhv-MJ-5yy"/>
                         <segue destination="krw-2r-PDT" kind="unwind" identifier="Unwind" unwindAction="unwindHeroesWithSegue:" id="BtN-lw-pgc"/>
                     </connections>
                 </tableViewController>
