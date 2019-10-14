@@ -52,7 +52,18 @@ class HeroesTableViewController: UITableViewController {
         performSegue(withIdentifier: "Next", sender: nil)
     }
     
-//    @IBAction func unwind() {
-//        print("unwind")
-//    }
+    @IBAction func unwindHeroes(segue: UIStoryboardSegue) {
+        let vc = segue.source as! NewHeroTableViewController
+        vc.delegate = self
+        vc.delegate?.addNew(vc.heroModel!)
+    }
+}
+
+extension HeroesTableViewController: NewHeroDelegate {
+    func addNew(_ hero: Hero) {
+        heroes.append(hero)
+        tableView.reloadData()
+    }
+    
+
 }
