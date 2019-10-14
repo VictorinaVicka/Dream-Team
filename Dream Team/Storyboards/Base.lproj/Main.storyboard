@@ -13,7 +13,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Tmv-Aq-bd3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.1301797395" green="0.13820909000000001" blue="0.64020989439999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="AMr-Bv-zHm" customClass="HeroViewCell" customModule="Dream_Team" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="100"/>
@@ -92,7 +92,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="2Ey-h4-Eho">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.076625204259999996" green="0.35394179339999998" blue="0.91382054069999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <sections>
                             <tableViewSection id="OkT-Nt-jEi">
                                 <cells>
@@ -220,7 +220,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="Pn8-ap-ggc" firstAttribute="leading" secondItem="eSw-B4-jgq" secondAttribute="leading" constant="16" id="0nU-6R-NJ5"/>
                                                 <constraint firstItem="Pn8-ap-ggc" firstAttribute="top" secondItem="eSw-B4-jgq" secondAttribute="top" constant="9.5" id="66y-D9-1Wp"/>
@@ -256,7 +256,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="kM6-vT-jzP" firstAttribute="top" secondItem="8VK-aw-Zjj" secondAttribute="top" constant="9.5" id="LsH-GV-wHb"/>
                                                 <constraint firstAttribute="trailing" secondItem="kM6-vT-jzP" secondAttribute="trailing" constant="16" id="p8G-mz-0i1"/>
@@ -292,7 +292,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="LwN-rL-zvH" secondAttribute="bottom" constant="11" id="Zye-4J-ELF"/>
                                                 <constraint firstItem="LwN-rL-zvH" firstAttribute="leading" secondItem="ClU-ET-9nz" secondAttribute="leading" constant="16" id="nA0-ca-k1K"/>
@@ -328,7 +328,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="pSt-M4-8qn" secondAttribute="trailing" constant="16" id="GSW-rJ-Iyq"/>
                                                 <constraint firstItem="pSt-M4-8qn" firstAttribute="leading" secondItem="54i-Rj-684" secondAttribute="leading" constant="16" id="PHc-4b-pJu"/>
@@ -363,7 +363,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="Jr4-gf-Hh3" firstAttribute="top" secondItem="EBO-tS-Kol" secondAttribute="topMargin" id="502-lG-keG"/>
                                                 <constraint firstItem="Jr4-gf-Hh3" firstAttribute="leading" secondItem="EBO-tS-Kol" secondAttribute="leadingMargin" id="Mr7-oN-hZt"/>
@@ -383,14 +383,14 @@
                                                     <rect key="frame" x="98.5" y="23" width="123" height="38"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                     <state key="normal" title="ДОБАВИТЬ ">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
                                                         <action selector="goBackToOneButtonTapped:" destination="SA2-rU-chH" eventType="touchUpInside" id="TNn-2i-CA6"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.12941176469999999" green="0.13725490200000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="Sk4-UM-Mfs" firstAttribute="centerX" secondItem="bK3-Ec-mwC" secondAttribute="centerX" id="8hR-5O-vGa"/>
                                                 <constraint firstItem="Sk4-UM-Mfs" firstAttribute="centerY" secondItem="bK3-Ec-mwC" secondAttribute="centerY" id="d2C-04-R9i"/>
@@ -452,7 +452,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="PvI-hC-ps6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0270200409" green="0.39688041810000002" blue="0.9334219694" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <sections>
                             <tableViewSection id="T3V-ek-doG">
                                 <cells>
@@ -471,7 +471,7 @@
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0270200409" green="0.39688041810000002" blue="0.9334219694" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="znP-pa-a1g" firstAttribute="trailing" secondItem="Au3-v3-M57" secondAttribute="trailingMargin" id="FRE-bg-kCo"/>
                                                 <constraint firstItem="znP-pa-a1g" firstAttribute="leading" secondItem="Au3-v3-M57" secondAttribute="leadingMargin" id="QGy-GA-zfQ"/>
@@ -553,7 +553,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0270200409" green="0.39688041810000002" blue="0.9334219694" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="RzH-jg-98e" firstAttribute="leading" secondItem="0LY-Fq-xAD" secondAttribute="leadingMargin" id="12A-nA-efi"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="RzH-jg-98e" secondAttribute="trailing" id="5f8-QA-kr9"/>
@@ -618,7 +618,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="NUp-O9-1MH" secondAttribute="trailing" constant="16" id="UpG-sA-hz6"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.12956649070000001" green="0.1067775562" blue="0.66673731800000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="71" id="Is8-rd-GF4">
                                         <rect key="frame" x="0.0" y="836" width="320" height="71"/>
@@ -645,7 +645,7 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.12124096600000001" green="0.052219040690000003" blue="0.62359672779999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.21499673750000001" green="0.45520908259999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="a7A-hd-y3E" firstAttribute="bottom" secondItem="kpf-tY-H7f" secondAttribute="bottomMargin" id="Bh7-s7-rih"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="a7A-hd-y3E" secondAttribute="trailing" id="U0V-2J-dfl"/>
@@ -664,6 +664,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="0kG-Mm-iqr">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="heR-Ye-mSi">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="SA2-rU-chH" kind="presentation" id="huf-Cd-oDq"/>
                             </connections>
