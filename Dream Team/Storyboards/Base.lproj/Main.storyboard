@@ -664,7 +664,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="0kG-Mm-iqr">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="heR-Ye-mSi">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="SA2-rU-chH" kind="presentation" id="huf-Cd-oDq"/>
                             </connections>
@@ -695,4 +695,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="huf-Cd-oDq"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>
