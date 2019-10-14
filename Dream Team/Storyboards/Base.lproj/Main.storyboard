@@ -139,7 +139,8 @@
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nuj-6p-hpd">
                                                             <rect key="frame" x="0.0" y="29.5" width="288" height="34"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="backgroundColor" red="0.35252853469747292" green="0.59490515358837737" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="SA2-rU-chH" id="Z0n-7D-PRY"/>
@@ -175,7 +176,8 @@
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XD4-yQ-yc9">
                                                             <rect key="frame" x="0.0" y="29.5" width="288" height="34"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="backgroundColor" red="0.35252853470000001" green="0.59490515359999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="SA2-rU-chH" id="FiX-h2-RfJ"/>
@@ -211,7 +213,8 @@
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w4Z-bg-lVU">
                                                             <rect key="frame" x="0.0" y="29.5" width="288" height="34"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="backgroundColor" red="0.35252853470000001" green="0.59490515359999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="SA2-rU-chH" id="cgg-OM-WKw"/>
@@ -247,7 +250,8 @@
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cp8-et-Tjb">
                                                             <rect key="frame" x="0.0" y="23.5" width="288" height="40"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="backgroundColor" red="0.35252853470000001" green="0.59490515359999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="SA2-rU-chH" id="60j-Zw-RGH"/>
@@ -283,7 +287,8 @@
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QOr-VH-Wp2">
                                                             <rect key="frame" x="0.0" y="24.5" width="288" height="39"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="backgroundColor" red="0.35252853470000001" green="0.59490515359999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="SA2-rU-chH" id="e9M-yb-YdP"/>
@@ -319,7 +324,8 @@
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pkw-HO-KT3">
                                                             <rect key="frame" x="0.0" y="29.5" width="288" height="34"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="backgroundColor" red="0.35252853470000001" green="0.59490515359999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                             <connections>
                                                                 <outlet property="delegate" destination="SA2-rU-chH" id="5Rm-Yr-vWu"/>
@@ -355,8 +361,8 @@
                                                         </label>
                                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wus-gR-OSx">
                                                             <rect key="frame" x="0.0" y="27.5" width="304" height="72"/>
-                                                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="backgroundColor" red="0.35252853470000001" green="0.59490515359999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                         </textView>
