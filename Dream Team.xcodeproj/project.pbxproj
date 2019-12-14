@@ -119,8 +119,8 @@
 		6CFABB292351C3AC00FB9C5B /* HeroeDetailController */ = {
 			isa = PBXGroup;
 			children = (
-				6CFABB0F2351C11600FB9C5B /* HeroDetailViewController.swift */,
 				6C39E78C235357A100ED9D71 /* Heroes DetailVCEctention.swift */,
+				6CFABB0F2351C11600FB9C5B /* HeroDetailViewController.swift */,
 			);
 			path = HeroeDetailController;
 			sourceTree = "<group>";

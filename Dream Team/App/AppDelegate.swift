@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = .blue
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
         
-        
         return true
     }
 
